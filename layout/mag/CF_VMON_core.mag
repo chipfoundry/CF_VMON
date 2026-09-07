@@ -1,0 +1,161 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 0
+<< metal1 >>
+rect 19423 0 19451 430
+rect 19511 0 19539 430
+rect 19775 0 19803 430
+rect 19863 0 19891 430
+rect 39288 71799 39316 72229
+rect 39200 71799 39228 72229
+rect 38936 71799 38964 72229
+rect 38848 71799 38876 72229
+rect 25675 0 25715 430
+rect 25589 0 25629 430
+rect 25503 0 25543 430
+rect 25417 0 25457 430
+rect 33024 71799 33064 72229
+rect 33110 71799 33150 72229
+rect 33196 71799 33236 72229
+rect 58238 31946 58550 31986
+rect 58281 32186 58550 32226
+rect 33391 71800 33431 72229
+rect 25761 0 25801 430
+rect 34199 71799 34239 72229
+rect 24500 0 24540 430
+rect 34092 71826 34152 72229
+rect 24587 0 24647 248
+rect 33282 71799 33322 72229
+<< metal2 >>
+rect 0 33308 1375 33692
+rect 0 41188 727 41288
+rect 0 40760 853 41160
+rect 57403 38486 58550 38870
+rect 0 41772 821 41872
+rect 0 41344 820 41744
+rect 57491 20133 58532 20313
+rect 40 51865 1078 52045
+rect 0 26086 808 26286
+rect 0 40176 495 40276
+rect 0 39887 495 40079
+rect 57462 45892 58550 46092
+rect 0 42183 695 42283
+rect 0 42502 649 42886
+rect 58067 31310 58550 31358
+rect 58080 30719 58550 30767
+rect 58218 30128 58550 30176
+rect 58211 29740 58550 29788
+rect 58211 29832 58550 29880
+rect 58450 29253 58550 29293
+rect 58452 29339 58550 29379
+rect 0 41928 823 42127
+rect 0 40350 856 40700
+rect 0 39749 226 39801
+rect 58196 30571 58550 30619
+rect 58475 22043 58550 22083
+rect 58067 31448 58550 31488
+<< labels >>
+rlabel metal2 s 0 33308 1375 33692 4 vgndd_rl
+port 1 nsew
+rlabel metal2 s 0 41188 727 41288 4 vgndd_nb
+port 2 nsew
+rlabel metal2 s 0 40760 853 41160 4 vgndd
+port 3 nsew
+rlabel metal2 s 57403 38486 58550 38870 4 vgnda_rl
+port 4 nsew
+rlabel metal2 s 0 41772 821 41872 4 vgnda_nb
+port 5 nsew
+rlabel metal2 s 0 41344 820 41744 4 vgnda
+port 6 nsew
+rlabel metal2 s 57491 20133 58532 20313 4 vdd_rl
+port 7 nsew
+rlabel metal2 s 40 51865 1078 52045 4 vda_rl
+port 8 nsew
+rlabel metal2 s 0 26086 808 26286 4 vcd_rl
+port 9 nsew
+rlabel metal2 s 0 40176 495 40276 4 vcd_pb
+port 10 nsew
+rlabel metal2 s 0 39887 495 40079 4 vcd
+port 11 nsew
+rlabel metal2 s 57462 45892 58550 46092 4 vca_rl
+port 12 nsew
+rlabel metal2 s 0 42183 695 42283 4 vca_pb
+port 13 nsew
+rlabel metal2 s 0 42502 649 42886 4 vca
+port 14 nsew
+rlabel metal2 s 58067 31310 58550 31358 4 PRES_D_OUT
+port 15 nsew
+rlabel metal2 s 58080 30719 58550 30767 4 PRES_A_OUT
+port 16 nsew
+rlabel metal2 s 58218 30128 58550 30176 4 LVI_D_OUT
+port 17 nsew
+rlabel metal2 s 58211 29740 58550 29788 4 LVI_A_OUT
+port 18 nsew
+rlabel metal2 s 58211 29832 58550 29880 4 HVI_OUT
+port 19 nsew
+rlabel metal1 s 19423 0 19451 430 4 TR_BIT_D[3]
+port 20 nsew
+rlabel metal1 s 19511 0 19539 430 4 TR_BIT_D[2]
+port 21 nsew
+rlabel metal1 s 19775 0 19803 430 4 TR_BIT_D[1]
+port 22 nsew
+rlabel metal1 s 19863 0 19891 430 4 TR_BIT_D[0]
+port 23 nsew
+rlabel metal1 s 39288 71799 39316 72229 4 TR_BIT_A[3]
+port 24 nsew
+rlabel metal1 s 39200 71799 39228 72229 4 TR_BIT_A[2]
+port 25 nsew
+rlabel metal1 s 38936 71799 38964 72229 4 TR_BIT_A[1]
+port 26 nsew
+rlabel metal1 s 38848 71799 38876 72229 4 TR_BIT_A[0]
+port 27 nsew
+rlabel metal2 s 58450 29253 58550 29293 4 PD
+port 28 nsew
+rlabel metal1 s 25675 0 25715 430 4 LVI_D_SEL[3]
+port 29 nsew
+rlabel metal1 s 25589 0 25629 430 4 LVI_D_SEL[2]
+port 30 nsew
+rlabel metal1 s 25503 0 25543 430 4 LVI_D_SEL[1]
+port 31 nsew
+rlabel metal1 s 25417 0 25457 430 4 LVI_D_SEL[0]
+port 32 nsew
+rlabel metal1 s 33024 71799 33064 72229 4 LVI_A_SEL[3]
+port 33 nsew
+rlabel metal1 s 33110 71799 33150 72229 4 LVI_A_SEL[2]
+port 34 nsew
+rlabel metal1 s 33196 71799 33236 72229 4 LVI_A_SEL[1]
+port 35 nsew
+rlabel metal2 s 58452 29339 58550 29379 4 ISO
+port 36 nsew
+rlabel metal2 s 0 41928 823 42127 4 vca_int
+port 37 nsew
+rlabel metal2 s 0 40350 856 40700 4 vcd_int
+port 38 nsew
+rlabel metal1 s 58238 31946 58550 31986 4 VREF_PRES
+port 39 nsew
+rlabel metal1 s 58281 32186 58550 32226 4 VREF_LVI_HVI
+port 40 nsew
+rlabel metal2 s 0 39749 226 39801 4 SLEEP
+port 41 nsew
+rlabel metal2 s 58196 30571 58550 30619 4 en_iso_vcca
+port 42 nsew
+rlabel metal2 s 58475 22043 58550 22083 4 HVI_SEL
+port 43 nsew
+rlabel metal1 s 33391 71800 33431 72229 4 EN_HVI_A
+port 44 nsew
+rlabel metal2 s 58067 31448 58550 31488 4 EN_LVI_A
+port 45 nsew
+rlabel metal1 s 25761 0 25801 430 4 EN_LVI_D
+port 46 nsew
+rlabel metal1 s 34199 71799 34239 72229 4 EN_PRES_A
+port 47 nsew
+rlabel metal1 s 24500 0 24540 430 4 EN_PRES_D
+port 48 nsew
+rlabel metal1 s 34092 71826 34152 72229 4 IINA
+port 49 nsew
+rlabel metal1 s 24587 0 24647 248 4 IIND
+port 50 nsew
+rlabel metal1 s 33282 71799 33322 72229 4 LVI_A_SEL[0]
+port 51 nsew
+<< end >>
