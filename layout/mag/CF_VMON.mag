@@ -34,12 +34,12 @@ rect 36282 74799 36322 78229
 << metal2 >>
 rect 3000 43760 3853 44160
 rect 3000 43760 4358 44160
-rect 0 44344 3820 44744
+rect 0 44334 3820 44754
 rect 60491 23133 64550 23313
-rect 0 54865 4078 55045
+rect 0 54855 4078 55055
 rect 3000 42887 3495 43079
 rect 1262 42887 3495 43079
-rect 0 45502 3649 45886
+rect 0 45492 3649 45896
 rect 61067 34310 64550 34358
 rect 61080 33719 64550 33767
 rect 61218 33128 64550 33176
@@ -47,7 +47,7 @@ rect 61211 32740 64550 32788
 rect 61211 32832 64550 32880
 rect 61450 32253 64550 32293
 rect 61452 32339 64550 32379
-rect 0 42749 3226 42801
+rect 0 42739 3226 42811
 rect 61196 33571 64550 33619
 rect 61475 25043 64550 25083
 rect 61067 34448 64550 34488
@@ -1114,142 +1114,134 @@ rect 49000 0 49620 78229
 rect 55000 0 55620 78229
 rect 61000 0 61620 78229
 << labels >>
-rlabel metal2 s 3000 43760 3853 44160 4 vgnd
-port 1 nsew
-rlabel metal2 s 3000 43760 4358 44160 4 vgnd
-port 2 nsew
 rlabel metal3 s 4262 43760 4358 44160 4 vgnd
-port 3 nsew
+port 1 nsew
 rlabel metal3 s 246 75329 64304 75949 4 vgnd
-port 4 nsew
+port 2 nsew
 rlabel metal4 s 4000 0 4620 78229 4 vgnd
-port 5 nsew
+port 3 nsew
 rlabel metal4 s 10000 0 10620 78229 4 vgnd
-port 6 nsew
+port 4 nsew
 rlabel metal4 s 16000 0 16620 78229 4 vgnd
-port 7 nsew
+port 5 nsew
 rlabel metal4 s 22000 0 22620 78229 4 vgnd
-port 8 nsew
+port 6 nsew
 rlabel metal4 s 28000 0 28620 78229 4 vgnd
-port 9 nsew
+port 7 nsew
 rlabel metal4 s 34000 0 34620 78229 4 vgnd
-port 10 nsew
+port 8 nsew
 rlabel metal4 s 40000 0 40620 78229 4 vgnd
-port 11 nsew
+port 9 nsew
 rlabel metal4 s 46000 0 46620 78229 4 vgnd
-port 12 nsew
+port 10 nsew
 rlabel metal4 s 52000 0 52620 78229 4 vgnd
-port 13 nsew
+port 11 nsew
 rlabel metal4 s 58000 0 58620 78229 4 vgnd
-port 14 nsew
-rlabel metal2 s 0 44344 3820 44744 4 vgnda
-port 15 nsew
+port 12 nsew
+rlabel metal2 s 0 44334 3820 44754 4 vgnda
+port 13 nsew
 rlabel metal2 s 60491 23133 64550 23313 4 vdd_rl
-port 16 nsew
-rlabel metal2 s 0 54865 4078 55045 4 vda_rl
-port 17 nsew
-rlabel metal2 s 3000 42887 3495 43079 4 vpwr
-port 18 nsew
-rlabel metal2 s 1262 42887 3495 43079 4 vpwr
-port 19 nsew
+port 14 nsew
+rlabel metal2 s 0 54855 4078 55055 4 vda_rl
+port 15 nsew
 rlabel metal3 s 1262 42887 1358 43079 4 vpwr
-port 20 nsew
+port 16 nsew
 rlabel metal3 s 246 76289 64304 76909 4 vpwr
-port 21 nsew
+port 17 nsew
 rlabel metal4 s 1000 0 1620 78229 4 vpwr
-port 22 nsew
+port 18 nsew
 rlabel metal4 s 7000 0 7620 78229 4 vpwr
-port 23 nsew
+port 19 nsew
 rlabel metal4 s 13000 0 13620 78229 4 vpwr
-port 24 nsew
+port 20 nsew
 rlabel metal4 s 19000 0 19620 78229 4 vpwr
-port 25 nsew
+port 21 nsew
 rlabel metal4 s 25000 0 25620 78229 4 vpwr
-port 26 nsew
+port 22 nsew
 rlabel metal4 s 31000 0 31620 78229 4 vpwr
-port 27 nsew
+port 23 nsew
 rlabel metal4 s 37000 0 37620 78229 4 vpwr
-port 28 nsew
+port 24 nsew
 rlabel metal4 s 43000 0 43620 78229 4 vpwr
-port 29 nsew
+port 25 nsew
 rlabel metal4 s 49000 0 49620 78229 4 vpwr
-port 30 nsew
+port 26 nsew
 rlabel metal4 s 55000 0 55620 78229 4 vpwr
-port 31 nsew
+port 27 nsew
 rlabel metal4 s 61000 0 61620 78229 4 vpwr
-port 32 nsew
-rlabel metal2 s 0 45502 3649 45886 4 vca
-port 33 nsew
+port 28 nsew
+rlabel metal2 s 0 45492 3649 45896 4 vca
+port 29 nsew
 rlabel metal2 s 61067 34310 64550 34358 4 PRES_D_OUT
-port 34 nsew
+port 30 nsew
 rlabel metal2 s 61080 33719 64550 33767 4 PRES_A_OUT
-port 35 nsew
+port 31 nsew
 rlabel metal2 s 61218 33128 64550 33176 4 LVI_D_OUT
-port 36 nsew
+port 32 nsew
 rlabel metal2 s 61211 32740 64550 32788 4 LVI_A_OUT
-port 37 nsew
+port 33 nsew
 rlabel metal2 s 61211 32832 64550 32880 4 HVI_OUT
-port 38 nsew
+port 34 nsew
 rlabel metal1 s 22423 0 22451 3430 4 TR_BIT_D[3]
-port 39 nsew
+port 35 nsew
 rlabel metal1 s 22511 0 22539 3430 4 TR_BIT_D[2]
-port 40 nsew
+port 36 nsew
 rlabel metal1 s 22775 0 22803 3430 4 TR_BIT_D[1]
-port 41 nsew
+port 37 nsew
 rlabel metal1 s 22863 0 22891 3430 4 TR_BIT_D[0]
-port 42 nsew
+port 38 nsew
 rlabel metal1 s 42288 74799 42316 78229 4 TR_BIT_A[3]
-port 43 nsew
+port 39 nsew
 rlabel metal1 s 42200 74799 42228 78229 4 TR_BIT_A[2]
-port 44 nsew
+port 40 nsew
 rlabel metal1 s 41936 74799 41964 78229 4 TR_BIT_A[1]
-port 45 nsew
+port 41 nsew
 rlabel metal1 s 41848 74799 41876 78229 4 TR_BIT_A[0]
-port 46 nsew
+port 42 nsew
 rlabel metal2 s 61450 32253 64550 32293 4 PD
-port 47 nsew
+port 43 nsew
 rlabel metal1 s 28675 0 28715 3430 4 LVI_D_SEL[3]
-port 48 nsew
+port 44 nsew
 rlabel metal1 s 28589 0 28629 3430 4 LVI_D_SEL[2]
-port 49 nsew
+port 45 nsew
 rlabel metal1 s 28503 0 28543 3430 4 LVI_D_SEL[1]
-port 50 nsew
+port 46 nsew
 rlabel metal1 s 28417 0 28457 3430 4 LVI_D_SEL[0]
-port 51 nsew
+port 47 nsew
 rlabel metal1 s 36024 74799 36064 78229 4 LVI_A_SEL[3]
-port 52 nsew
+port 48 nsew
 rlabel metal1 s 36110 74799 36150 78229 4 LVI_A_SEL[2]
-port 53 nsew
+port 49 nsew
 rlabel metal1 s 36196 74799 36236 78229 4 LVI_A_SEL[1]
-port 54 nsew
+port 50 nsew
 rlabel metal2 s 61452 32339 64550 32379 4 ISO
-port 55 nsew
+port 51 nsew
 rlabel metal1 s 61238 34946 64550 34986 4 VREF_PRES
-port 56 nsew
+port 52 nsew
 rlabel metal1 s 61281 35186 64550 35226 4 VREF_LVI_HVI
-port 57 nsew
-rlabel metal2 s 0 42749 3226 42801 4 SLEEP
-port 58 nsew
+port 53 nsew
+rlabel metal2 s 0 42739 3226 42811 4 SLEEP
+port 54 nsew
 rlabel metal2 s 61196 33571 64550 33619 4 en_iso_vcca
-port 59 nsew
+port 55 nsew
 rlabel metal2 s 61475 25043 64550 25083 4 HVI_SEL
-port 60 nsew
+port 56 nsew
 rlabel metal1 s 36391 74800 36431 78229 4 EN_HVI_A
-port 61 nsew
+port 57 nsew
 rlabel metal2 s 61067 34448 64550 34488 4 EN_LVI_A
-port 62 nsew
+port 58 nsew
 rlabel metal1 s 28761 0 28801 3430 4 EN_LVI_D
-port 63 nsew
+port 59 nsew
 rlabel metal1 s 37199 74799 37239 78229 4 EN_PRES_A
-port 64 nsew
+port 60 nsew
 rlabel metal1 s 27500 0 27540 3430 4 EN_PRES_D
-port 65 nsew
+port 61 nsew
 rlabel metal1 s 37092 74826 37152 78229 4 IINA
-port 66 nsew
+port 62 nsew
 rlabel metal1 s 27587 0 27647 3248 4 IIND
-port 67 nsew
+port 63 nsew
 rlabel metal1 s 36282 74799 36322 78229 4 LVI_A_SEL[0]
-port 68 nsew
+port 64 nsew
 << properties >>
 string FIXED_BBOX 0 0 64550 78229
 << end >>

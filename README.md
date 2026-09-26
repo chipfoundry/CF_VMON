@@ -2,7 +2,7 @@
 
 > Voltage monitor with brown-out and power-good outputs
 
-Draft for designer review. The public GDS is an abstract; ChipFoundry
+The public GDS is an abstract; ChipFoundry
 substitutes protected full geometry at tapeout.
 
 This package ships an SRAM-style PG wrap `CF_VMON` around analog leaf
@@ -30,14 +30,7 @@ rings `vda_rl` / `vdd_rl` stay wrap SIGNAL ports so OpenLane can route them.
 
 ```bash
 pip install cf-ipm
-ipm install CF_VMON --version 0.2.0 --include-drafts
-```
-
-Until the marketplace listing is published, install from a local catalog
-override the same way `cf-vmon-test-project` does:
-
-```bash
-ipm install CF_VMON --version 0.2.0 --include-drafts --local-file ip/catalog.json
+ipm install CF_VMON --version 0.2.1
 ```
 
 Use `hdl/gl/CF_VMON.v` as the customer blackbox, `layout/lef/CF_VMON.lef`
@@ -46,6 +39,8 @@ public wrap. `CF_VMON_core` is the analog leaf (empty Verilog, pin-only
 abstract). ChipFoundry substitutes vault GDS into `CF_VMON_core` at tapeout.
 P&R uses the wrap LEF (`vpwr` / `vgnd` for chip PDN).
 
+Functional sim compiles `verify/beh_model/CF_VMON_core.v` **instead of** the empty `hdl/gl/CF_VMON_core.v` stub. See `verify/beh_model/README.md`.
+
 ## Features
 
 - Precise POR outputs `PRES_D_OUT` / `PRES_A_OUT` for digital and analog cores
@@ -53,6 +48,7 @@ P&R uses the wrap LEF (`vpwr` / `vgnd` for chip PDN).
 - High-voltage indicator `HVI_OUT` with `HVI_SEL` / `EN_HVI_A`
 - Per-domain trims `TR_BIT_D[3:0]` / `TR_BIT_A[3:0]`
 - Power-down `PD`, sleep `SLEEP`, and isolation `ISO` / `en_iso_vcca`
+- Ideal Verilog behavioral model under `verify/beh_model/` for functional sim
 - Customer cell `CF_VMON` 322.75 × 391.145 µm (15 µm halo around analog leaf 292.75 × 361.145 µm)
 - Chip PDN is `vpwr` / `vgnd`. Analog `vca` / `vgnda` stay wrap SIGNAL ports.
 
@@ -116,7 +112,14 @@ In OpenLane / LibreLane, hook chip PDN with
 ## Limitations and Open Issues
 
 - Verilog in `hdl/gl/CF_VMON.v` is a structural wrap around an empty
-  `CF_VMON_core` blackbox, not a SPICE-accurate model.
+  `CF_VMON_core` blackbox. Functional sim uses `verify/beh_model/CF_VMON_core.v` (ideal model, not SPICE).
 - Liberty is not in this first wrap drop. P&R uses the wrap LEF.
 - Companion latchup-variant analog tops stay foundry-only. This package
   ships the wrap around the public analog leaf.
+
+## Release History
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.2.0 | 2026-09-06 | First SRAM-style PG-wrapped package. |
+| 0.2.1 | 2026-09-26 | Core fill-exclude covers so fillgen does not overwrite the analog. Ideal behavioral model for functional sim. |
